@@ -1,0 +1,73 @@
+*.db
+
+# =========================
+# Python & Bytecode
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# =========================
+# Virtual Environments
+# =========================
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# =========================
+# FastAPI / Uvicorn Specific
+# =========================
+# Uvicorn socket/pid files
+*.pid
+*.sock
+
+# Coverage & Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Type checking
+.mypy_cache/
+.ruff_cache/
+.pytype/
+
+# =========================
+# IDEs & Editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# =========================
+# OS Generated
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs & Databases
+# =========================
+*.log
+*.sqlite3
+*.db
+
+# =========================
+# Secrets (NEVER COMMIT)
+# =========================
+*.pem
+*.key
+secrets.yaml
+config.local.*
